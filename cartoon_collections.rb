@@ -11,6 +11,6 @@ def long_planeteer_calls(calls_long)   # code an argument here
 end
 
 def find_the_cheese(snacks)    # code an argument here
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  snack.select
 end
 
