@@ -12,6 +12,7 @@ end
 
 def find_the_cheese(snacks)    # code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.select.to_s {|n| cheese_types.include? (n)}
+  x = snacks.select {|n| cheese_types.include? (n)}
+  return x.to_s
 end
 
